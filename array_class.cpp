@@ -4,30 +4,23 @@ using namespace std;
 class Array
 {
     int arr[100];
-
 public:
     int size;
-
     Array()
     {
         size = 0;
     }
-
-    // Subscript operator overloading
     int& operator[](int index)
     {
         return arr[index];
     }
-
     friend ostream& operator<<(ostream &out, Array a);
     friend istream& operator>>(istream &in, Array &a);
 };
-
 ostream& operator<<(ostream &out, Array a)
 {
     for(int i=0;i<a.size;i++)
         out<<a.arr[i]<<" ";
-
     out<<endl;
     return out;
 }
@@ -37,7 +30,6 @@ istream& operator>>(istream &in, Array &a)
         in>>a.arr[i];
     return in;
 }
-
 int main()
 {
     Array a;
@@ -54,81 +46,60 @@ int main()
         cout<<"\n7 Delete Position";
         cout<<"\n8 Display";
         cout<<"\n9 Exit";
-
         cout<<"\nEnter choice: ";
         cin>>ch;
-
         switch(ch)
         {
-
         case 1:
             cout<<"Enter number of elements: ";
             cin>>n;
             a.size = n;
             cout<<"Enter elements:\n";
             for(int i=0;i<n;i++)
-                cin>>a[i];      // using overloaded []
+                cin>>a[i];      
             break;
-
         case 2:
             cout<<"Enter value: ";
             cin>>val;
-
             for(int i=a.size;i>0;i--)
                 a[i] = a[i-1];
-
             a[0] = val;
             a.size++;
             break;
-
         case 3:
             cout<<"Enter value: ";
             cin>>val;
-
             a[a.size] = val;
             a.size++;
             break;
-
         case 4:
             cout<<"Enter value and position: ";
             cin>>val>>pos;
-
             for(int i=a.size;i>pos;i--)
                 a[i] = a[i-1];
-
             a[pos] = val;
             a.size++;
             break;
-
         case 5:
             for(int i=0;i<a.size-1;i++)
                 a[i] = a[i+1];
-
             a.size--;
             break;
-
         case 6:
             a.size--;
             break;
-
         case 7:
             cout<<"Enter position: ";
             cin>>pos;
-
             for(int i=pos;i<a.size-1;i++)
-                a[i] = a[i+1];
-
+                a[i] = a[i+1]
             a.size--;
             break;
-
         case 8:
             for(int i=0;i<a.size;i++)
                 cout<<a[i]<<" ";  
             break;
-
         }
-
     }while(ch!=9);
-
     return 0;
 }
