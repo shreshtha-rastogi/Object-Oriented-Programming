@@ -3,7 +3,6 @@ using namespace std;
 
 // user-defined manipulator with binary support
 ostream& baseConvert(ostream& out, int num, int base) {
-
     if (base == 10)
         out << dec;   // decimal
     else if (base == 16)
@@ -18,7 +17,8 @@ ostream& baseConvert(ostream& out, int num, int base) {
             result = char((temp % 2) + '0') + result;
             temp /= 2;
         }
-        if (result == "") result = "0";
+        if (result == "") 
+            result = "0";
         out << result;
         return out;
     }
