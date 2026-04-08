@@ -7,7 +7,8 @@ int main(int argc,char *argv[])
     cout<<"1. Copy File\n";
     cout<<"2. Display File\n";
     cout<<"3. Exit\n";
-    do{
+    do
+    {
     cout<<"Enter your choice: ";
     cin>>choice;
     switch(choice)
