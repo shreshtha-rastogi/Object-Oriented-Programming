@@ -49,25 +49,20 @@ int main() {
              << orders[i].totalAmount() << endl;
     }
     fout.close();
-
     // Read orders and write unpaid customers to unpaidorder.txt
     ifstream fin("orderdetails.txt");
     ofstream foutUnpaid("unpaidorder.txt");
     string cname, pname;
     int qty;
     double price, total;
-
     while(fin >> cname >> pname >> qty >> price >> total) {
         if(total > 250) {
             foutUnpaid << cname << endl;
         }
     }
-
     fin.close();
     foutUnpaid.close();
-
     cout << "\nOrders saved in orderdetails.txt\n";
     cout << "Unpaid customers with total > 250 saved in unpaidorder.txt\n";
-
     return 0;
 }
