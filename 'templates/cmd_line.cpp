@@ -12,12 +12,10 @@ int main(int argc, char *argv[]) {
         cout << "File not found!\n";
         return 0;
     }
-
     char ch;
     while (file.get(ch)) {  // Character by character read
         cout << ch;         // Display kar rahe
     }
-
     file.close();
     return 0;
 }
