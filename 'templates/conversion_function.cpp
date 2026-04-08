@@ -31,16 +31,12 @@ int main()
     // Object creation
     // Constructor call hoga aur money = 500 store ho jayega
     Rupees r(500);
-
     // User Defined to Primitive Conversion
     // yaha r ek object hai aur x int type ka hai
     // compiler automatically operator int() call karega
     // internally: x = r.operator int();
-
     int x = r;
-
     // Output
     cout << x;
-
     return 0;
 }
