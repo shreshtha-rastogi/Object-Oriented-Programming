@@ -1,13 +1,11 @@
 #include <iostream>
 using namespace std;
-
 // Rupees is a user-defined class
 class Rupees
 {
     int money;   // data member to store rupees
 
 public:
-
     // Constructor
     // Jab object create hoga to yeh constructor call hoga
     // aur money me value store karega
@@ -15,7 +13,6 @@ public:
     {
         money = m;
     }
-
     // Conversion Function
     // Yeh function Rupees object ko int me convert karega
     // Syntax: operator data_type()
@@ -25,7 +22,6 @@ public:
         return money;   // object ki value return kar dega
     }
 };
-
 int main()
 {
     // Object creation
