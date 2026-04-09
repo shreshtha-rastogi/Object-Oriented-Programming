@@ -7,7 +7,6 @@ int main() {
     // ---------------- WIDTH ----------------
     cout.width(10);               // function style
     cout << 123 << endl;          // output:        123
-
     cout << setw(10) << 123 << endl;   // manipulator style
     // output:        123
 
