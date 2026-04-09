@@ -21,14 +21,11 @@ public:
         cout << "Base Value: " << num << endl;
     }
 };
-
 /*
 Derived class template nahi hai
 Isliye Base ka data type fix karna padega
-
 Base<int>
 */
-
 class Derived : public Base<int>
 {
 public:
