@@ -4,7 +4,6 @@ using namespace std;
 Template Base Class
 T generic data type hai
 */
-
 template <class T>
 class Base
 {
