@@ -23,7 +23,6 @@ public:
     }
 };
 
-
 /*
 Derived class template nahi hai
 Isliye Base ka data type fix karna padega
