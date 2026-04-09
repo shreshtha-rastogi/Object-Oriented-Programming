@@ -4,7 +4,6 @@ using namespace std;
 class Rupees
 {
     int money;   // data member to store rupees
-
 public:
     // Constructor
     // Jab object create hoga to yeh constructor call hoga
