@@ -3,7 +3,6 @@
 using namespace std;
 
 int main() {
-
     // ---------------- WIDTH ----------------
     cout.width(10);               // function style
     cout << 123 << endl;          // output:        123
