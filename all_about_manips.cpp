@@ -1,7 +1,6 @@
 #include <iostream>
 #include <iomanip>   // for parameterized manipulators
 using namespace std;
-
 int main() {
     // ---------------- WIDTH ----------------
     cout.width(10);               // function style
