@@ -16,7 +16,6 @@ public:
     {
         num = x;
     }
-
     void showBase()
     {
         cout << "Base Value: " << num << endl;
