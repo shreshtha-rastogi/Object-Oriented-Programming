@@ -15,7 +15,6 @@ int main() {
     // ---------------- PRECISION ----------------
     cout.precision(4);            // function style
     cout << 12.34567 << endl;     // output: 12.35
-
     cout << setprecision(4) << 12.34567 << endl; // manipulator style
     // output: 12.35
     // ---------------- FILL ----------------
