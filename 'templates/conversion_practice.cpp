@@ -18,6 +18,10 @@ class A{
 class B{
     public:
         int y;
+        B(int b)
+        {
+            y=b;
+        }
 };
 void main()
 {
