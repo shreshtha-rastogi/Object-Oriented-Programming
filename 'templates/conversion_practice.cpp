@@ -14,4 +14,9 @@ class A{
 class B{
     public:
         int y;
+};
+void main()
+{
+    A obja;
+    B
 }
