@@ -18,6 +18,7 @@ class A{
 class B{
     public:
         int y;
+        B(){};
         B(int b)
         {
             y=b;
@@ -28,4 +29,5 @@ void main()
     A obja(10);
     B objb(20);
     obja=objb;
+
 }
