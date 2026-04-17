@@ -1,5 +1,19 @@
 #include<iostream>
 using namespace std;
+class A{
+    public:
+        int x;
+        A(int a)
+        {
+            x=a;
+        }
+        // operator B()
+        // {
+        //     B temp;
+        //     temp.y=x/1000;
+        //     return temp;
+        // }
+};
 class B{
     public:
         int y;
@@ -10,21 +24,7 @@ class B{
         }
         B(A obj)
         {
-            
-        }
-};
-class A{
-    public:
-        int x;
-        A(int a)
-        {
-            x=a;
-        }
-        operator B()
-        {
-            B temp;
-            temp.y=x/1000;
-            return temp;
+            y=obj.x;
         }
 };
 int main()
