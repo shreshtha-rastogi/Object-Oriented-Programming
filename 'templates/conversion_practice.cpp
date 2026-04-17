@@ -30,5 +30,4 @@ void main()
     B objb(20);
     objb=obja;
     cout<<obja.x;
-    cout<<objb.y;
 }
