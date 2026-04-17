@@ -25,7 +25,7 @@ class B{
 };
 void main()
 {
-    A obja;
-    B objb;
+    A obja(10);
+    B objb(20);
     obja=objb;
 }
