@@ -8,6 +8,10 @@ class B{
         {
             y=b;
         }
+        B(A obj)
+        {
+            
+        }
 };
 class A{
     public:
