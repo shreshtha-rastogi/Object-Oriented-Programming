@@ -28,6 +28,7 @@ void main()
 {
     A obja(10);
     B objb(20);
-    obja=objb;
-
+    objb=obja;
+    cout<<obja.x;
+    cout<<objb.y;
 }
