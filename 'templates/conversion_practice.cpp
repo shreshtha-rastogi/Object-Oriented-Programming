@@ -4,6 +4,10 @@ class B;
 class A{
     public:
         int x;
+        A(int a)
+        {
+            x=a;
+        }
         operator B()
         {
             B objb;
@@ -18,5 +22,6 @@ class B{
 void main()
 {
     A obja;
-    B
+    B objb;
+    obja=objb;
 }
