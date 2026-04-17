@@ -1,6 +1,14 @@
 #include<iostream>
 using namespace std;
-class B;
+class B{
+    public:
+        int y;
+        B(){};
+        B(int b)
+        {
+            y=b;
+        }
+};
 class A{
     public:
         int x;
@@ -13,15 +21,6 @@ class A{
             B objb;
             objb.y=x;
             return objb;
-        }
-};
-class B{
-    public:
-        int y;
-        B(){};
-        B(int b)
-        {
-            y=b;
         }
 };
 void main()
