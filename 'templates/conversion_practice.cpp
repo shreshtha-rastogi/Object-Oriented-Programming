@@ -18,17 +18,17 @@ class A{
         }
         operator B()
         {
-            B objb;
-            objb.y=x/1000;
-            return objb;
+            B temp;
+            temp.y=x/1000;
+            return temp;
         }
 };
 int main()
 {
-    A obja(10);
+    A obja(1000);
     B objb(20);
     objb=obja;
-    cout<<"a:"<<obja.x;
-    cout<<"b:"<<objb.y;
+    cout<<"a(in m):"<<obja.x;
+    cout<<"b(in km):"<<objb.y;
     return 0;
 }
