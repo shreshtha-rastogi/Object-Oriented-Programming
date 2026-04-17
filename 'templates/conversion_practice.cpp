@@ -6,6 +6,12 @@ class A{
         int x;
         operator B()
         {
-
+            B objb;
+            objb.y=x;
+            return objb;
         }
+};
+class B{
+    public:
+        int y;
 }
