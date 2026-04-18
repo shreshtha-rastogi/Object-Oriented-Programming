@@ -37,4 +37,3 @@ int main()
     cout << objb1.y;
 }
 
-
