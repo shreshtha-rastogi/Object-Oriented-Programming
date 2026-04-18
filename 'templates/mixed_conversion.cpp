@@ -36,3 +36,17 @@ int main()
     // objb2 = obja;
     cout << objb1.y;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
