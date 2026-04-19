@@ -117,6 +117,5 @@ int main()
     q2.enqueue(4.5);
 
     q2.display();
-
     return 0;
 }
