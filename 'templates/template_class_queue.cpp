@@ -72,7 +72,6 @@ public:
             cout << "Queue is Empty\n";
             return;
         }
-
         cout << "Queue elements: ";
 
         for (int i = front; i <= rear; i++)
