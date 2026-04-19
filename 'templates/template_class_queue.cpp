@@ -98,7 +98,6 @@ int main()
     q1.enqueue(10);
     q1.enqueue(20);
     q1.enqueue(30);
-
     q1.display();
     q1.dequeue();
     q1.display();
