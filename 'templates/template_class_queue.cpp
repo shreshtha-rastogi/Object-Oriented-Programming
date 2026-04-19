@@ -73,7 +73,6 @@ public:
             return;
         }
         cout << "Queue elements: ";
-
         for (int i = front; i <= rear; i++)
         {
             cout << arr[i] << " ";
