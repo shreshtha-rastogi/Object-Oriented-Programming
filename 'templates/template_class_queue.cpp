@@ -112,7 +112,6 @@ int main()
     T = float
     */
     Queue<float> q2;
-
     q2.enqueue(2.5);
     q2.enqueue(4.5);
     q2.display();
