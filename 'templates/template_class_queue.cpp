@@ -8,7 +8,6 @@ Queue int, float, char sab store kar sakti hai
 */
 
 template <class T>
-
 class Queue
 {
     T arr[100];   // generic array
