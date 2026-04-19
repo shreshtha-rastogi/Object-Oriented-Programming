@@ -15,7 +15,6 @@ class Queue
     int rear;
 
 public:
-
     /*
     Constructor
     Queue initially empty hogi
