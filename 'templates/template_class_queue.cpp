@@ -94,7 +94,6 @@ int main()
     T = int
     */
     Queue<int> q1;
-
     q1.enqueue(10);
     q1.enqueue(20);
     q1.enqueue(30);
