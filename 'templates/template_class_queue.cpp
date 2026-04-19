@@ -104,7 +104,6 @@ int main()
     q1.dequeue();
     q1.display();
 
-
     cout << endl;
     /*
     Float Queue
