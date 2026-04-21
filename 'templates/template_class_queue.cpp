@@ -106,6 +106,3 @@ int main()
     q2.display();
     return 0;
 }
-
-
-
